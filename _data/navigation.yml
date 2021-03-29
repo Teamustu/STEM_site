@@ -1,6 +1,9 @@
-- name: Home
+# List of navbar titles
+- name: News
   link: /
+- name: Activities
+  link: /activities.html
+- name: Code B
+  link: /codeB.html
 - name: About
   link: /about.html
-- name: Contact
-  link: /contact.html

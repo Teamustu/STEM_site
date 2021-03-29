@@ -1,3 +1,16 @@
-.Home img {
-   max-width: 400px;
+.Home {
+   max-width: 1440px;
+   margin: auto;
+   img {
+      width: 100%;
+   filter: brightness(70%);
+   }
 }
+
+   
+.arrow {
+   fill: #fff;
+
+}
+$dark:#09071C;
+$btn-border-radius-sm: 100px;

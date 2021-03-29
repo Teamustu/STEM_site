@@ -1,5 +1,9 @@
 ---
 ---
-
-@import "bootstrap";
 @import "main";
+@import "bootstrap";
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Black.ttf");
+    font-weight: 400;
+}
