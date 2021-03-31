@@ -2,8 +2,8 @@
 - name: News
   link: /
 - name: Activities
-  link: /activities.html
+  link: /activities/
 - name: Code B
-  link: /codeB.html
+  link: /codeB/
 - name: About
-  link: /about.html
+  link: /about/
