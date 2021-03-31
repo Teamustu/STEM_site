@@ -1,3 +1,4 @@
+<!-- Same format as default, but needed to avoid giving the content the "container" class -->
 <!doctype html>
 <html>
   <head>
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
+    <!-- inserts the html from /_includes/navigation.html -->
     
 <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="mynavbar">
   <div class="mr-auto">
@@ -16,35 +18,47 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
+  <!-- code for collapsible navbar -->
   <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <!-- start of navbar list -->
     <ul class="navbar-nav">
+      <!-- loops through list of titles and links in /_data/navigation.yml -->
       
         <li class="nav-item">
-          <a class ="nav-link nav-text" href="/"style="color: white;">News</a>
+          <a class ="nav-link nav-text" href="/"style="color: white;">News</a> <!-- if statement changes color of navbar item when active -->
         </li>
+        <!-- Creates Item link in navbar -->
       
         <li class="nav-item">
-          <a class ="nav-link nav-text" href="/activities.html">Activities</a>
+          <a class ="nav-link nav-text" href="/activities/">Activities</a> <!-- if statement changes color of navbar item when active -->
         </li>
+        <!-- Creates Item link in navbar -->
       
         <li class="nav-item">
-          <a class ="nav-link nav-text" href="/codeB.html">Code B</a>
+          <a class ="nav-link nav-text" href="/codeB/">Code B</a> <!-- if statement changes color of navbar item when active -->
         </li>
+        <!-- Creates Item link in navbar -->
       
         <li class="nav-item">
-          <a class ="nav-link nav-text" href="/about.html">About</a>
+          <a class ="nav-link nav-text" href="/about/">About</a> <!-- if statement changes color of navbar item when active -->
         </li>
+        <!-- Creates Item link in navbar -->
       
         <li class="nav-item ">
-          <a class="nav-link btn-sm btn-primary" href="/join.html">&nbsp;&nbsp;Join 
+          <!-- links to STEM Facebook page -->
+          <a class="nav-link btn-sm btn-primary" href="https://www.facebook.com/groups/bghsstem" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;Join 
+            <!-- arrow icon -->
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 8 8">
               <path class="arrow" d="M5 0v2h-5v1h5v2l3-2.53-3-2.47z" transform="translate(0 1)" />
             </svg>
-        </a>
+        
+          </a>
         </li>
+        <!-- creates Join button -->
+        <!-- ignore for now -->
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown Link</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
           
             <a class="dropdown-item" href="/school/clubs.html">clubs</a>
           
@@ -57,7 +71,7 @@
 </nav>
 
 
-    
+    <!-- "Home" controls the format of the first image -->
     <div class = "Home">
       <img src="/assets/images/news.png">
     </div>
