@@ -2,3 +2,5 @@
 _site
 #ignores jekyll cache
 .jekyll-cache
+#ignores jekyll metadata
+.jekyll-metadata
