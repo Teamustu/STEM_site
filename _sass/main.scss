@@ -1,10 +1,11 @@
-.Home {
+.firstImg {
    max-width: 1440px;
    margin: auto;
    img {
       width: 100%;
-   filter: brightness(70%);
+   filter: brightness(80%);
    }
+   position: relative;
 }
 
    
@@ -14,3 +15,39 @@
 }
 $dark:#09071C;
 $btn-border-radius-sm: 100px;
+
+.caret {
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transition: 200ms;
+   &:hover {
+      transform: translateY(10px);
+   }
+}
+
+.imgTxt {
+   position: absolute;
+   top: 30%;
+   color: #fff;
+   left: 8%;
+   h1 {   
+      font-size: 8rem;
+   }
+   
+   text-shadow: 2px 2px 5px black;
+}
+
+@media (max-width:576px) {
+   .imgTxt {
+      top: 25%;
+      left: 30%;
+      h1 {
+         font-size: 400%;
+      }
+      h2, h3 {
+         font-size: 1.5rem;
+      }
+   }
+   
+}
