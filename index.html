@@ -14,8 +14,25 @@
     <!-- inserts the html from /_includes/navigation.html -->
     {% include navigation.html %}
     <!-- "Home" controls the format of the first image -->
-    <div class = "Home">
-      <img src="/assets/images/news.png">
+    <div class = "firstImg">
+      <div class="position-relative">
+        <img src="/assets/images/news.png">
+        <span class="caret">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 8 8">
+            <path d="M0 0l4 4 4-4h-8z" transform="translate(0 2)" />
+          </svg>
+        </span>
+      <div class="container-fluid imgTxt">
+        <h2>Bolsa Grande</h2>
+        <h1>STEM</h1>
+        <h3>Science.|</h3>
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      
+
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
