@@ -17,26 +17,28 @@
         </li>
         <!-- Creates Item link in navbar -->
       {% endfor %}
-        <li class="nav-item ">
-          <!-- links to STEM Facebook page -->
-          <a class="nav-link btn-sm btn-primary" href="https://www.facebook.com/groups/bghsstem" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;Join 
-            <!-- arrow icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 8 8">
-              <path class="arrow" d="M5 0v2h-5v1h5v2l3-2.53-3-2.47z" transform="translate(0 1)" />
-            </svg>
         
-          </a>
-        </li>
-        <!-- creates Join button -->
-        <!-- ignore for now -->
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown Link</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+      <!-- The liquid seems to be having some issues, may need to further investigate. Changing data files doesn't immediately change content, the for statements need to be deleted and repasted for it to work -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Activities</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuButton"> 
           {% for item in site.data.navdropdown %}
             <a class="dropdown-item" href="{{ item.link }}">{{ item.name }}</a>
           {% endfor %}
+
         </div>
-      </li> -->
+      </li>
+      <li class="nav-item ">
+        <!-- links to STEM Facebook page -->
+        <a class="nav-link btn-sm btn-primary" href="https://www.facebook.com/groups/bghsstem" target="_blank" rel="noopener noreferrer">&nbsp;&nbsp;Join 
+          <!-- arrow icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 8 8">
+            <path class="arrow" d="M5 0v2h-5v1h5v2l3-2.53-3-2.47z" transform="translate(0 1)" />
+          </svg>
+      
+        </a>
+      </li>
+      <!-- creates Join button -->
     </ul>
   </div>
 </nav>

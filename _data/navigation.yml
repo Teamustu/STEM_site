@@ -1,9 +1,6 @@
 # List of navbar titles
 - name: News
   link: /
-- name: Activities
-  link: /activities/
-- name: Code B
-  link: /codeB/
 - name: About
   link: /about/
+

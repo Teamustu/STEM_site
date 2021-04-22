@@ -1,5 +1,7 @@
 #List of dropdown titles
-- name: clubs
-  link: /school/clubs.html
-- name: grr
-  link: /
+- name: MESA
+  link: /MESA/
+- name: Icebreakers
+  link: /bye
+- name: Code B
+  link: /codeB/
