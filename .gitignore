@@ -1,6 +1,7 @@
 #ignores _site directory
 _site
 #ignores jekyll cache
+.jekyll-cache\*
 .jekyll-cache/*
 #ignores jekyll metadata
 .jekyll-metadata
