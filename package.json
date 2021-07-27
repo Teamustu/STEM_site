@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Teamustu/STEM_site/issues"
   },
-  "homepage": "https://github.com/Teamustu/STEM_site#readme"
+  "homepage": "https://github.com/Teamustu/STEM_site#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.2"
+  }
 }
