@@ -38,6 +38,31 @@ $btn-border-radius-sm: 100px;
    text-shadow: 2px 2px 5px black;
 }
 
+.footer {
+   margin-top: 1%;
+   border: 3px solid black;
+   
+   img {
+      width: 32%;
+      display: block;
+      margin: auto;
+      
+   }
+   h5 {
+      width: 30%;
+      display: block;
+      margin: auto;
+      text-align: center;
+      font-size: medium;
+   }
+   .d-flex {
+      margin-top: 7px;
+      img {
+         width: 41px;
+      }
+   }
+}
+
 @media (max-width:576px) {
    .imgTxt {
       top: 25%;
