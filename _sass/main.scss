@@ -1,3 +1,38 @@
+// Default colors
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+// Variable overides
+$primary:       $blue ;
+$secondary:     #474D5A ;
+$success:       $green ;
+$info:          $cyan ;
+$warning:       $yellow ;
+$danger:        $red ;
+$light:         $gray-100 ;
+$dark:#09071C;
+$btn-border-radius-sm: 100px;
+
+
+// for header img
 .firstImg {
    max-width: 1440px;
    margin: auto;
@@ -8,14 +43,13 @@
    position: relative;
 }
 
-   
+// arrow icon color
 .arrow {
    fill: #fff;
 
 }
-$dark:#09071C;
-$btn-border-radius-sm: 100px;
 
+// caret icon styles
 .caret {
    position: absolute;
    bottom: 20px;
@@ -26,6 +60,7 @@ $btn-border-radius-sm: 100px;
    }
 }
 
+// Text overlaping image
 .imgTxt {
    position: absolute;
    top: 30%;
@@ -38,9 +73,17 @@ $btn-border-radius-sm: 100px;
    text-shadow: 2px 2px 5px black;
 }
 
+.imgt {
+   width: 100%;
+   max-width: 210px;
+   min-width: 100px;
+   padding: 20px;
+}
+
+// footer styling
 .footer {
    margin-top: 1%;
-   border: 3px solid black;
+   
    
    img {
       width: 32%;
@@ -63,6 +106,7 @@ $btn-border-radius-sm: 100px;
    }
 }
 
+// media queries for resizing behavior
 @media (max-width:576px) {
    .imgTxt {
       top: 25%;
