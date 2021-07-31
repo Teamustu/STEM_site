@@ -15,7 +15,6 @@
     {% include navigation.html %}
     <!-- "Home" controls the format of the first image -->
     <div class = "firstImg">
-      <div class="position-relative">
         <img src="/assets/images/news.png">
         <!-- animated caret icon-->
         <span class="caret">
@@ -23,23 +22,22 @@
             <path d="M0 0l4 4 4-4h-8z" transform="translate(0 2)" />
           </svg>
         </span>
-      <!-- Header text -->
-      <div class="container-fluid imgTxt">
-        <h2>Bolsa Grande</h2>
-        <h1>STEM</h1>
-        <h3>Science.|</h3>
+        <!-- Header text -->
+        <div class="imgTxt">
+          <h2>Bolsa Grande</h2>
+          <h1>STEM</h1>
+          <h3>Science.|</h3>  
 
         </div>
-      </div>
     </div>
     <!-- Start of info section -->
     <!-- Each container class is one info section -->
     <div class="container">
       <div class="d-flex justify-content-evenly flex-wrap mt-5 text-center">
         <div class="col">
-          <img src="assets/images/home_page/hp1.png">
+          <img class="img-fluid minwidth" src="assets/images/home_page/hp1.png">
         </div>
-        <div class="col mt-5" style="min-width: 300px;">
+        <div class="col mt-5 minwidth">
             <h1>What We Do</h1>
             <p>Bolsa Grande STEM strives to offer students a learning environment and get hands-on experience in STEM fields, be it by constructing engineering projects, coding complex algorithms, or participating in exhilarating and meaningful icebreakers—all with the goal to excel in those fields.</p>
             <a class="alink shadow btn btn-primary rounded-pill px-4 py-2">Learn More
@@ -55,7 +53,7 @@
     <!-- middle section -->
     <div class="bg-secondary py-5 my-3">
       <div class="container d-flex justify-content-evenly flex-wrap mt-5 text-center">
-        <div class="col mt-5 text-white" style="min-width: 300px;">
+        <div class="col mt-5 text-white minwidth">
             <h1>Larger Associations</h1>
             <p>Every year, STEM provides students opportunities to expand and apply their knowledge through a variety of projects and competitions from different organizations. STEM’s two main competitions, MESA and Sidelines, both require students to design, build, and work in teams to make real-life, practical devices.</p>
             <a class="alink shadow btn btn-primary rounded-pill px-4 py-2">Projects
@@ -65,14 +63,14 @@
               </svg>
             </a>
         </div>
-        <div class="d-flex flex-column col justify-content-center align-items-center">
+        <div class="d-flex flex-column col justify-content-center minwidth">
           <div class="col">
-            <img class="bg-white rounded-3 m-3" src="assets/images/home_page/MESAHomeHeader.png" style="max-width: 100%; min-width: 100px;" alt="MESA Logo">
+            <img class="bg-white rounded-3 my-3 img-fluid" src="assets/images/home_page/MESAHomeHeader.png"  alt="MESA Logo">
           </div>
           <div class="col d-flex flex-row justify-content-center flex-wrap">
-            <img class="imgt" src="assets/images/home_page/Sidelines.png" alt="">
-            <img class="imgt" src="assets/images/home_page/UCI.png" alt="">
-            <img class="imgt" src="assets/images/home_page/Code_B_logo.png" alt="">
+            <img class="p-2 img-fluid" src="assets/images/home_page/Sidelines.png" alt="">
+            <img class="p-2 img-fluid" src="assets/images/home_page/UCI.png" alt="">
+            <img class="p-2 img-fluid" src="assets/images/home_page/Code_B_logo.png" alt="">
           </div>
         </div>
       </div>
@@ -80,10 +78,10 @@
     <!-- third section -->
     <div class="container">
       <div class="d-flex justify-content-evenly flex-wrap my-5 text-center">
-        <div class="col">
-          <img src="assets/images/home_page/hp6.png">
+        <div class="col minwidth">
+          <img class="img-fluid" src="assets/images/home_page/hp6.png">
         </div>
-        <div class="col mt-5" style="min-width: 300px;">
+        <div class="col mt-5 minwidth">
             <h1>Become a Member</h1>
             <a class="alink shadow btn btn-primary rounded-pill px-4 py-2">Join Now
               <!-- arrow icon -->
