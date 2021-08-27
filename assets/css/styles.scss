@@ -3,7 +3,12 @@
 @import "main";
 @import "bootstrap";
 @font-face {
-    font-family: Lato;
+    font-family:'Lato';
     src: url("../fonts/Lato-Black.ttf");
     font-weight: 400;
+}
+@font-face {
+    font-family:'Roboto', sans-serif;
+    src: url("../fonts/Roboto-Black.ttf");
+    font-weight: 500;
 }
