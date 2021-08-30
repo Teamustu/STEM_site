@@ -1,7 +1,10 @@
 <!-- potential code for a header -->
 {% assign pic = site.data.head[page.pic] %}
-<div class = "firstImg">
+<div class="firstImg">
+<!-- <div class = "firstImg" style="background-image: url(/assets/images/{{ pic.img }});"> -->
     <div class="position-relative">
       <img src="/assets/images/{{ pic.img }}">
+      <h1 class="position-absolute top-25 start-50 translate-middle title-text mb-5">{{ pic.name | upcase }}</h1>
+      <p class="text-center imgsub position-absolute top-98 start-50 translate-middle px-5">{{ pic.description }}</p>
     </div>
 </div>

@@ -1,5 +1,15 @@
 ---
 ---
+$position-values: (
+    0: 0,
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    90: 90%,
+    95: 95%,
+    98: 98%,
+    100: 100%,
+);
 @import "main";
 @import "bootstrap";
 @font-face {
