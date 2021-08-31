@@ -68,7 +68,7 @@ $btn-border-radius-sm: 100px;
 // Text overlaping image
 .imgTxt {
    position: absolute;
-   top: 10%;
+   top: 20vw;
    left: 60px;
    color: #fff;
    h1 {   
@@ -115,7 +115,8 @@ $btn-border-radius-sm: 100px;
 // media queries for resizing behavior
 @media (max-width:576px) {
    .imgTxt {
-      top: 25%;
+      text-align: center;
+      top: 27vw;
       left: 30%;
       h1 {
          font-size: 400%;
