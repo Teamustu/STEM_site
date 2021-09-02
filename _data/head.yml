@@ -1,3 +1,19 @@
 activities:
       img: activities.png
-      name: activities
+      name: Activities
+codeB: 
+      img: codeB.jpg
+      name: CodeB
+about:
+      img: activities.png
+      name: About
+      description: UCI MESA Preliminary 2020
+news: 
+      img: codeB.jpg
+      name: News
+mesa:
+      img: activities.png
+      name: MESA
+icebreakers: 
+      img: codeB.jpg
+      name: Icbreakers
