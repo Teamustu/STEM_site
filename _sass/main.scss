@@ -132,6 +132,10 @@ $btn-border-radius-sm: 100px;
    }
 }
 
+.mtlist {
+   margin: 5% 5%;
+}
+
 // media queries for resizing behavior
 @media (max-width:576px) {
    .imgTxt {
@@ -144,6 +148,10 @@ $btn-border-radius-sm: 100px;
       h2, h3 {
          font-size: 1.5rem;
       }
+   }
+   .mtlist {
+      margin: 0;
+      padding: 0;
    }
    
 }
