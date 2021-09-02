@@ -1,7 +1,8 @@
 #List of dropdown titles
 - name: MESA
-  link: /MESA/
+  link: /comingsoon.html
+  #link: /MESA/
 - name: Icebreakers
-  link: /bye
+  link: /comingsoon.html
 - name: Code B
-  link: /codeB/
+  link: /comingsoon.html
