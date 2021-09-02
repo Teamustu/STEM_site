@@ -1,9 +1,26 @@
 ---
 ---
+$position-values: (
+    0: 0,
+    5: 5%,
+    10: 10%,
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    90: 90%,
+    95: 95%,
+    98: 98%,
+    100: 100%,
+);
 @import "main";
 @import "bootstrap";
 @font-face {
-    font-family: Lato;
+    font-family:'Lato';
     src: url("../fonts/Lato-Black.ttf");
     font-weight: 400;
+}
+@font-face {
+    font-family:'Roboto', sans-serif;
+    src: url("../fonts/Roboto-Black.ttf");
+    font-weight: 500;
 }

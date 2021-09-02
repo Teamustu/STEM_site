@@ -34,13 +34,19 @@ $btn-border-radius-sm: 100px;
 
 // for header img
 .firstImg {
+   position: relative;
    max-width: 1440px;
    margin: auto;
+   background-repeat: no-repeat;
    img {
       width: 100%;
       filter: brightness(80%);
    }
-   position: relative;
+}
+
+.imgsub {
+   opacity: 60%;
+   background-color: white;
 }
 
 // arrow icon color
@@ -62,17 +68,36 @@ $btn-border-radius-sm: 100px;
 
 // Text overlaping image
 .imgTxt {
-   position: absolute;
-   top: 30%;
-   left: 60px;
    color: #fff;
+   position: absolute;
+   top: 35%;
+   left: 10%;
    h1 {   
       font-size: 8rem;
    }
    text-shadow: 2px 2px 5px black;
 }
 
+.offCard {
+   background-color: #BDBDBD40;
+   width: 100%;
+   height: 100%;
+   border-radius: 1%;
+}
 
+.imgcontainer {
+   position: relative;
+}
+.offCardsub {
+   font-size: larger;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.3);
+   transform: translate(-50%, 40%);
+   width: 100%;
+}
 
 // .imgt {
 //    width: 100%;
@@ -110,7 +135,8 @@ $btn-border-radius-sm: 100px;
 // media queries for resizing behavior
 @media (max-width:576px) {
    .imgTxt {
-      top: 25%;
+      text-align: center;
+      top: 30%;
       left: 30%;
       h1 {
          font-size: 400%;
@@ -120,4 +146,11 @@ $btn-border-radius-sm: 100px;
       }
    }
    
+}
+
+.title-text{
+   font-family: 'Roboto', sans-serif;
+   font-weight:500;
+   font-size:67px;
+   color:white;
 }
