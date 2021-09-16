@@ -1,41 +1,52 @@
 ---
-layout: default
+layout: default2
 title: About
 permalink: /about/
-pic: activities
+pic: about
+color: '#474D5A'
 ---
-<!-- coder's note [cuz im bad] bundle exec jekyll serve -->
-<div class="d-flex justify-content-center">
-    <h1 class="position-absolute top-0 start-50 translate-middle text-center title-text" style="margin-top:14vh;">ABOUT</h1>
 
-    <p>UCI Preliminary Competition 2020</p>
-</div>
-<div style="height:80vh;background-color:white;">
-    <div class="card mb-3" style="max-width:100%;border-style:none;">
+  <div class="container d-flex justify-content-center">
+    <div class="my-5 p-5 rounded-3 bg-light">
+      <div class="card mb-3 border-0">
         <div class="row g-0">
           <div class="col-md-5">
             <img src="../assets/images/about1.png" class="img-fluid rounded-start" alt="Minh and Kevin Working on a controller">
           </div>
           <div class="col-md-7">
-            <div class="card-body text-center" style="margin:0 8%;">
+            <div class="my-auto bg-light h-100 text-center">
               <h5 class="card-title">What We Do</h5>
-              <p class="card-text">Stem club is a gathering of students that meet regularly in a learning environment to work on inquiry based Science, Technology, Engineering, and Math projects.</p>
-              <button type="button" class="btn btn-primary rounded-pill">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <p class="p-5 card-text">
+              STEM club the best place at Bolsa Grande High School to explore interest and develop technical skills in the STEM field. Members get the opportunity to compete in engaging Science, Technology, Engineering, and Math based competitions in groups, developing their social and technical skills. 
+              </p>
+              <!-- <button type="button" class="btn btn-primary rounded-pill">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                 </svg>
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3" style="max-width:100%;border-style:none;">
+      <div class="card mb-3 border-0">
         <div class="row g-0">
-            <div class="col-md-7">
-                <div class="card-body text-center" style="margin:0 8%;">
+            <div class="position-relative col-md-7">
+                <div class="card-body bg-light h-100 text-center">
                     <h5 class="card-title">Club Meetings</h5>
-                    <p class="card-text text-muted">STEM holds monthly meetings on Saturdays from 9:30 A.M. to 11:00 A.M. in Room 405.</p>
-                    <p class="card-text text-muted">With Covid-19's restrictions, meetings have temporarily been moved to Mondays from 3:00 P.M. to 4:00 P.M. on Zoom.</p>
+                    <p class="card-text">
+                      <ul class="mx-5 my-5">
+                        <li>
+                          Interest meeting on September 18th in room 325 during lunch!
+                        </li>
+                        <li>STEM holds bi-weekly meetings on Saturdays from 9:30 A.M. to 11:00 A.M. in Room 405.
+                        </li>
+                        <li>We may have extra throughout the school year to allow for extra time to work on projects as well.
+                        </li>
+                        <li>
+                          During meetings, we will either be doing STEM activities, working on projects, or hosting informative workshops.
+                        </li>
+                      </ul>
+                    </p>
                 </div>
             </div>
             <div class="col-md-5">
@@ -43,4 +54,82 @@ pic: activities
             </div>
         </div>
       </div>
-</div>
+    </div>
+  </div>
+
+  <div style="background-color: {{ page.color }};">
+    <div class="container text-white py-5">
+      <div class="row flex-wrap text-center">
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="offCard"> 
+            <h5 class="pt-2">Thomas To</h5>
+            <div class="imgcontainer">
+              <img class="card-img" src="../assets/images/thomas1.png" alt="Thomas To">
+              <h6 class="offCardsub">President</h6>
+            </div>
+            <p class="card-text p-4">Hey everyone! I am the current President of STEM Club at Bolsa Grande High School. STEM has been such an inspiration for me, and I am so glad that I can contribute back to the club! My goal is to share all of the knowledge STEM Club has with all of the club members and as many people on campus as we can reach! I look forward to serving as your President for another great year of STEM!.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="offCard"> 
+            <h5 class="pt-2">Mr. Tonthat</h5>
+            <div class="imgcontainer">
+              <img class="card-img" src="../assets/images/Tonthat1.png" alt="Mr. Tonthat">
+              <h6 class="offCardsub ">Advisor</h6>
+            </div>
+            <p class="card-text p-4">Bolsa Grande STEM Club, formerly known as MESA Club, is a campus organization that provides students an opportunity to explore and apply their Science, Technology, Engineering, and Math knowledge and skills beyond their classrooms. If you are interested in joining our club and competing with us in the upcoming school year, seek one of the officers and sign up.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="offCard"> 
+            <h5 class="pt-2">Kevin Mach</h5>
+            <div class="imgcontainer">
+              <img class="card-img" src="../assets/images/kevin1.png" alt="Kevin Mach">
+              <h6 class="offCardsub ">Vice-President</h6>
+            </div>
+            <p class="card-text p-4">Hello everyone! I am the current VP of the club. I hope to be an inspiration to you all just as STEM has been for me. Join our club for some fun! Competitions and seriousness aside, I want to share our experiences in STEM and teach skills to you. See you in the workshop!</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="offCard"> 
+            <h5 class="pt-2">James Huynh</h5>
+            <div class="imgcontainer">
+              <img class="card-img" src="../assets/images/james1.png" alt="James Huynh">
+              <h6 class="offCardsub ">Computer Science Activities Chair</h6>
+            </div>
+            <p class="card-text p-4">Hi everyone! My name's James and I'm the computer science activities chair of STEM club. My main job is to make sure everyone who is interested in learning to code at stem club gets involved and is able to have fun. I'm really excited to introduce you to coding and to get you skilled enough to compete for awards and accomplishments. Hope to see you at the workshop!</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="offCard"> 
+            <h5 class="pt-2">Sean Huynh</h5>
+            <div class="imgcontainer">
+              <img class="card-img" src="../assets/images/sean.jpg" alt="Sean Huynh">
+              <h6 class="offCardsub">Vice-President</h6>
+            </div>
+            <p class="card-text p-4">Hey guys my name is Sean Huynh and I am a current senior who aspires to have a career in mechanical engineering one day! I have taken an interest in arduinos and building various things because I just think its so cool how you can just will something into existence! I also have been playing tennis since I was 5 which is my favorite hobby to do on my free time!</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-5">
+          <div class="offCard"> 
+            <h5 class="pt-2">Adrian Vo</h5>
+            <div class="imgcontainer">
+              <img class="card-img" src="../assets/images/adrian.jpg" alt="Adrian Vo">
+              <h6 class="offCardsub">Secretary</h6>
+            </div>
+            <p class="card-text p-4">Hi guys :) I’m the STEM secretary, Adrian Vo. STEM is very cool so it is definitely worth joining. I’m looking forward to working with everyone this year. Let’s have some fun!</p>
+          </div>
+        </div>
+
+        
+        
+        
+  </div>  
+
+  
