@@ -5,3 +5,5 @@ _site
 .jekyll-cache/*
 #ignores jekyll metadata
 .jekyll-metadata
+#ignores gemfile.lock
+Gemfile.lock
