@@ -39,9 +39,7 @@ $btn-border-radius-sm: 100px;
 }
 
 .footer {
-   margin-top: 1%;
-   border: 3px solid black;
-   
+   margin-top: 1%;   
    img {
       width: 32%;
       display: block;
@@ -54,6 +52,20 @@ $btn-border-radius-sm: 100px;
       margin: auto;
       text-align: center;
       font-size: medium;
+   }
+   h6 {
+      width: 50%;
+      display: block;
+      text-align: center;
+      margin: auto;
+      font-size: small;
+   }
+   a {
+      text-decoration: none;
+      color: gray;
+   }
+   a:hover{
+      color: gray;
    }
    .d-flex {
       margin-top: 7px;
