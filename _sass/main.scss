@@ -110,7 +110,10 @@ $btn-border-radius-sm: 100px;
 .footer {
    margin-top: 1%;
    background-color: #F0F0F0;
-   
+   ul {
+      list-style: none;
+      
+   }
    img {
       width: 32%;
       display: block;
